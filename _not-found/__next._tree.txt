@@ -1,2 +1,2 @@
-:HL["/genealogy/_next/static/chunks/1lrymuy2mup39.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"V7WFnPabTJ_qCokOXgw5B"}
+:HL["/genealogy/_next/static/chunks/39kmbzz711yau.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"zTN4Onf_RBB_PWenw6CO8"}
