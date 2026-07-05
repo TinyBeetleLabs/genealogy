@@ -1395,6 +1395,11 @@
           "title": "Ark brought to Jerusalem",
           "text": "David captured Jerusalem and made it his capital. He brought the ark of the covenant into the city with rejoicing — leaping and dancing before the LORD as all Israel celebrated.",
           "scriptureRef": "2 Samuel 5:6-9; 2 Samuel 6:12-15"
+        },
+        {
+          "title": "Nathan's rebuke and the child who died",
+          "text": "After David took Bathsheba and arranged Uriah's death, Nathan told the parable of the rich man and the poor man's lamb. David confessed, 'I have sinned against the LORD.' Nathan said the LORD had put away his sin, but the sword would not depart from his house — and the child born to him would die. The boy became ill and died on the seventh day.",
+          "scriptureRef": "2 Samuel 12:1-18"
         }
       ],
       "scriptureRefs": {
@@ -1416,12 +1421,45 @@
       "gender": "female",
       "isMainLineage": false,
       "era": "united-kingdom",
-      "description": "Wife of Uriah the Hittite, then wife of David. Mother of Solomon. Matthew 1:6 refers to her as 'wife of Uriah' rather than by name.",
+      "description": "Wife of Uriah the Hittite, then wife of David. Her first child with David died seven days after birth. She later bore Solomon. Matthew 1:6 refers to her as 'wife of Uriah' rather than by name.",
+      "significance": [
+        {
+          "title": "First child died; Solomon followed",
+          "text": "After Nathan confronted David, the child born to David and Bathsheba became ill. David fasted and pleaded on the ground while the boy lived; on the seventh day the child died. David then comforted Bathsheba, and she bore Solomon.",
+          "scriptureRef": "2 Samuel 12:15-24"
+        }
+      ],
       "scriptureRefs": {
         "existence": [
           { "display": "2 Samuel 11:3" },
           { "display": "2 Samuel 12:24" },
           { "display": "Matthew 1:6" }
+        ]
+      }
+    },
+    {
+      "id": "david-bathsheba-first-son",
+      "name": "Unnamed son",
+      "gender": "male",
+      "isMainLineage": false,
+      "showInGraph": false,
+      "era": "united-kingdom",
+      "birthOrder": 9,
+      "description": "First child born to David and Bathsheba. Scripture does not record his name. The LORD struck the child ill after Nathan the prophet confronted David; the boy died seven days after birth.",
+      "significance": [
+        {
+          "title": "Judgment on David's sin",
+          "text": "After David's adultery with Bathsheba and the death of Uriah, Nathan pronounced that the sword would never depart from David's house and that this child would die. David fasted while the child lived; when the boy died on the seventh day, David worshiped the LORD and comforted Bathsheba. She later bore Solomon.",
+          "scriptureRef": "2 Samuel 12:1-24"
+        }
+      ],
+      "notes": "Not shown on the family tree — scripture never names this child. Distinct from Nathan, the later son of David and Bathsheba listed in 1 Chronicles 3:5.",
+      "scriptureRefs": {
+        "existence": [
+          { "display": "2 Samuel 12:14-18" }
+        ],
+        "lineage": [
+          { "display": "2 Samuel 12:15" }
         ]
       }
     },

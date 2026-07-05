@@ -634,6 +634,18 @@
       ]
     },
     {
+      "id": "david-bathsheba-first-son",
+      "source": "david",
+      "target": "david-bathsheba-first-son",
+      "type": "biological",
+      "notes": "Scripture does not name this child. He died seven days after birth (2 Samuel 12:18).",
+      "scriptureRefs": [
+        { "display": "2 Samuel 12:15" },
+        { "display": "2 Samuel 12:18" }
+      ]
+    },
+    { "id": "bathsheba-first-son-maternal", "source": "bathsheba", "target": "david-bathsheba-first-son", "type": "maternal", "scriptureRefs": [{ "display": "2 Samuel 12:15" }, { "display": "2 Samuel 12:18" }] },
+    {
       "id": "david-amnon",
       "source": "david",
       "target": "amnon",
