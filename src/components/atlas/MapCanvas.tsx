@@ -9,6 +9,7 @@ import Image from "next/image";
 import { GraphData } from "@/types/graph";
 import { BiblicalLocation, MigrationRoute } from "@/types/location";
 import { LOCATIONS, MIGRATIONS, MAP_ERA_LABELS, migrationMatchesMapEra, getPeopleAtLocation } from "@/lib/data/mapData";
+import { publicPath } from "@/lib/basePath";
 import { getPortrait } from "@/lib/data/portraitRefs";
 import { Person } from "@/types/person";
 
@@ -36,9 +37,9 @@ function fixLeafletIcons() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   delete (L.Icon.Default.prototype as any)._getIconUrl;
   L.Icon.Default.mergeOptions({
-    iconRetinaUrl: "/leaflet/marker-icon-2x.png",
-    iconUrl: "/leaflet/marker-icon.png",
-    shadowUrl: "/leaflet/marker-shadow.png",
+    iconRetinaUrl: publicPath("/leaflet/marker-icon-2x.png"),
+    iconUrl: publicPath("/leaflet/marker-icon.png"),
+    shadowUrl: publicPath("/leaflet/marker-shadow.png"),
   });
 }
 

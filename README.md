@@ -36,12 +36,12 @@ data/
 
 src/
 ├── app/
-│   ├── page.tsx          # Main graph page
-│   └── api/graph/        # GET /api/graph (for Phase 2 extension)
+│   └── page.tsx          # Main atlas shell
 ├── components/
+│   ├── atlas/            # Map, timeline, people directory
 │   ├── graph/            # GenealogyGraph, PersonNode, GraphControls
-│   ├── panel/            # PersonPanel, ScriptureRef
-│   └── search/           # SearchBar
+│   ├── layout/           # Sidebar, scripture trust dialog
+│   └── panel/            # PersonPanel, ScriptureRef
 ├── lib/
 │   ├── data/loader.ts    # Load + validate JSON data
 │   └── graph/            # transform.ts, layout.ts, query.ts
@@ -78,6 +78,16 @@ Read `data/CURATION_GUIDE.md` before editing any data files. Every entry require
 npm run build
 npm run start
 ```
+
+## GitHub Pages
+
+The app deploys automatically to GitHub Pages on every push to `main`.
+
+- **Live site:** `https://<your-github-username>.github.io/genealogy/`
+- **Build command:** `npm run build:pages` (static export with `/genealogy` base path)
+- **Workflow:** `.github/workflows/deploy-pages.yml`
+
+After the first deploy, enable Pages in the repo if needed: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 
 ## Deploying to Vercel
 
