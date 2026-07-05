@@ -1,0 +1,316 @@
+[
+  {
+    "id": "abraham-from-ur",
+    "personId": "abraham",
+    "label": "Abraham's Call",
+    "description": "God called Abram to leave his homeland. Terah led the family from Ur, stopped at Haran, and died there. Abraham departed from Haran at age 75.",
+    "scriptureRef": "Genesis 11:31 – 12:5",
+    "era": "Patriarchal Age",
+    "color": "#c8942a",
+    "waypoints": [
+      [30.96, 46.1],
+      [34.5, 42.0],
+      [36.85, 39.02],
+      [33.5, 37.0],
+      [32.21, 35.28]
+    ],
+    "waypointLabels": ["Ur", "Mesopotamia", "Haran", "Syria", "Shechem"],
+    "journey": {
+      "origin": "Ur of the Chaldeans",
+      "destination": "Land of Canaan",
+      "duration": "Abraham departed Haran at age 75 (Genesis 12:4)",
+      "highlights": [
+        { "place": "Haran", "note": "Terah settled here and died at 205; Abraham gathered his household and left from here at God's call." },
+        { "place": "Shechem", "note": "God appeared to Abram and promised the land to his offspring; Abram built an altar." }
+      ]
+    }
+  },
+  {
+    "id": "abraham-to-egypt",
+    "personId": "abraham",
+    "label": "Abraham to Egypt",
+    "description": "A severe famine drove Abraham and Sarah down to Egypt. Pharaoh took Sarah but was afflicted with plagues and returned her. Abraham left with great wealth.",
+    "scriptureRef": "Genesis 12:10-20",
+    "era": "Patriarchal Age",
+    "color": "#c8942a",
+    "waypoints": [
+      [31.5, 35.0],
+      [30.5, 33.5],
+      [30.1, 31.5]
+    ],
+    "waypointLabels": ["Negev", "Sinai", "Egypt"],
+    "journey": {
+      "origin": "Between Bethel and Ai, in the Negev",
+      "destination": "Egypt (returned to the Negev afterward)",
+      "highlights": [
+        { "place": "Egypt", "note": "A severe famine drove them south. Pharaoh took Sarah; the Lord afflicted Pharaoh's house with plagues. Abram left with livestock, silver, and gold." }
+      ]
+    }
+  },
+  {
+    "id": "jacob-to-haran",
+    "personId": "jacob",
+    "label": "Jacob Flees to Haran",
+    "description": "Jacob fled from Esau after deceiving their father Isaac. He had his famous dream at Bethel and continued to Haran, where he lived with Laban for 20 years and married Leah and Rachel.",
+    "scriptureRef": "Genesis 27:43 – 29:1",
+    "era": "Patriarchal Age",
+    "color": "#9a6fd8",
+    "waypoints": [
+      [31.53, 35.09],
+      [31.92, 35.22],
+      [32.5, 36.0],
+      [34.5, 38.0],
+      [36.85, 39.02]
+    ],
+    "waypointLabels": ["Beer-sheba", "Bethel", "Jordan", "Damascus", "Haran"],
+    "journey": {
+      "origin": "Beer-sheba",
+      "destination": "Haran, Paddan-aram",
+      "duration": "20 years with Laban (Genesis 31:38, 41)",
+      "highlights": [
+        { "place": "Bethel", "note": "Jacob dreamed of a ladder reaching heaven; God renewed the promise to him. He set up a pillar and vowed to return." },
+        { "place": "Haran", "note": "Jacob served Laban, married Leah and Rachel, and greatly increased his flocks and herds." }
+      ]
+    }
+  },
+  {
+    "id": "jacob-return-canaan",
+    "personId": "jacob",
+    "label": "Jacob Returns to Canaan",
+    "description": "After 20 years, Jacob departed from Haran with his wives, children, and flocks. He wrestled with the angel of God at Peniel and received the name Israel. He reconciled with Esau.",
+    "scriptureRef": "Genesis 31:17 – 33:20",
+    "era": "Patriarchal Age",
+    "color": "#9a6fd8",
+    "waypoints": [
+      [36.85, 39.02],
+      [35.0, 37.5],
+      [33.5, 36.5],
+      [32.5, 35.5],
+      [31.53, 35.09]
+    ],
+    "waypointLabels": ["Haran", "Mahanaim", "Peniel", "Shechem", "Beer-sheba"],
+    "journey": {
+      "origin": "Haran",
+      "destination": "Shechem, Canaan",
+      "duration": "Departed after 20 years with Laban (Genesis 31:41)",
+      "highlights": [
+        { "place": "Mahanaim", "note": "Angels of God met Jacob as he returned toward Canaan." },
+        { "place": "Peniel", "note": "Jacob wrestled with a man until daybreak; his name was changed to Israel." },
+        { "place": "Shechem", "note": "Jacob reconciled with Esau and bought a parcel of land; he pitched his tent and built an altar." }
+      ]
+    }
+  },
+  {
+    "id": "joseph-to-egypt",
+    "personId": "joseph-son-of-jacob",
+    "label": "Joseph Sold into Egypt",
+    "description": "Joseph's brothers sold him to Ishmaelite traders at Dothan for twenty pieces of silver. The traders brought him to Egypt where he was sold to Potiphar.",
+    "scriptureRef": "Genesis 37:25-36",
+    "era": "Sojourn in Egypt",
+    "color": "#d4a855",
+    "waypoints": [
+      [32.41, 35.2],
+      [31.5, 34.5],
+      [30.5, 33.5],
+      [30.07, 31.23]
+    ],
+    "waypointLabels": ["Dothan", "Samaria", "Sinai", "Egypt"],
+    "journey": {
+      "origin": "Dothan",
+      "destination": "Egypt — Potiphar's household",
+      "highlights": [
+        { "place": "Dothan", "note": "Brothers cast Joseph into a pit, then sold him to Ishmaelite traders for twenty shekels of silver." },
+        { "place": "Egypt", "note": "The traders sold Joseph to Potiphar, captain of Pharaoh's guard." }
+      ]
+    }
+  },
+  {
+    "id": "jacob-family-to-egypt",
+    "personId": "jacob",
+    "label": "Jacob's Family Descends to Egypt",
+    "description": "During the great famine, Jacob sent his sons to Egypt to buy grain. After Joseph revealed himself, Jacob and his entire family of 70 persons went down to Egypt and settled in Goshen.",
+    "scriptureRef": "Genesis 46:1-7",
+    "era": "Sojourn in Egypt",
+    "color": "#9a6fd8",
+    "waypoints": [
+      [31.25, 34.79],
+      [30.9, 33.8],
+      [30.7, 32.5],
+      [30.7, 32.1]
+    ],
+    "waypointLabels": ["Beer-sheba", "Negev", "Sinai", "Goshen"],
+    "journey": {
+      "origin": "Beer-sheba, Canaan",
+      "destination": "Goshen, Egypt",
+      "duration": "Jacob lived 17 years in Egypt before his death (Genesis 47:28)",
+      "highlights": [
+        { "place": "Beer-sheba", "note": "Jacob offered sacrifices; God spoke in a vision, telling him not to fear going down to Egypt and promising to bring his descendants back." },
+        { "place": "Goshen", "note": "Joseph met his father with tears; Jacob's household of 70 settled in the best of the land, separate from the Egyptians." }
+      ],
+      "deathBurial": {
+        "place": "Machpelah cave, Hebron",
+        "note": "Jacob died in Egypt at 147. His sons embalmed him and buried him in the cave at Machpelah with Abraham and Sarah (Genesis 49:33; 50:1-13)."
+      }
+    }
+  },
+  {
+    "id": "ruth-to-bethlehem",
+    "personId": "ruth",
+    "label": "Ruth Follows Naomi",
+    "description": "After the death of her husband in Moab, Ruth refused to leave her mother-in-law Naomi, saying 'Where you go I will go.' They returned together to Bethlehem at the beginning of the barley harvest.",
+    "scriptureRef": "Ruth 1:16-22",
+    "era": "Conquest & Judges",
+    "color": "#b8860b",
+    "waypoints": [
+      [31.4, 35.75],
+      [31.6, 35.45],
+      [31.7, 35.2]
+    ],
+    "waypointLabels": ["Moab", "Dead Sea road", "Bethlehem"],
+    "journey": {
+      "origin": "Moab",
+      "destination": "Bethlehem, Judah",
+      "duration": "Naomi lived in Moab about 10 years after leaving Judah (Ruth 1:4)",
+      "highlights": [
+        { "place": "Moab", "note": "Naomi's husband Elimelech died; her sons Mahlon and Chilion also died, leaving Ruth and Orpah widowed." },
+        { "place": "Road to Bethlehem", "note": "Ruth pledged her loyalty to Naomi: 'Your people shall be my people, and your God my God.'" },
+        { "place": "Bethlehem", "note": "They arrived at the beginning of the barley harvest; Ruth later gleaned in Boaz's fields." }
+      ]
+    }
+  },
+  {
+    "id": "david-to-jerusalem",
+    "personId": "david",
+    "label": "David Captures Jerusalem",
+    "description": "After being anointed king in Hebron, David captured Jerusalem from the Jebusites and established it as his capital, bringing the Ark of the Covenant there.",
+    "scriptureRef": "2 Samuel 5:6-9; 6:12-15",
+    "era": "United Monarchy",
+    "color": "#c8942a",
+    "waypoints": [
+      [31.53, 35.09],
+      [31.65, 35.14],
+      [31.78, 35.22]
+    ],
+    "waypointLabels": ["Hebron", "Jerusalem approach", "Jerusalem"],
+    "journey": {
+      "origin": "Hebron",
+      "destination": "Jerusalem (Zion)",
+      "duration": "Ruled Judah from Hebron 7½ years before moving the capital (2 Samuel 5:5)",
+      "highlights": [
+        { "place": "Jerusalem", "note": "David captured Zion from the Jebusites and made it his capital; Hiram king of Tyre built him a house." },
+        { "place": "Jerusalem", "note": "David brought the Ark of the Covenant into the city with rejoicing and sacrifices." }
+      ],
+      "deathBurial": {
+        "place": "City of David, Jerusalem",
+        "note": "David died in Jerusalem after reigning 40 years; he was buried in the City of David (1 Kings 2:10-11)."
+      }
+    }
+  },
+  {
+    "id": "mary-joseph-to-bethlehem",
+    "personId": "mary",
+    "label": "Mary & Joseph to Bethlehem",
+    "description": "Caesar Augustus decreed a census. Joseph traveled with Mary from Nazareth to Bethlehem, the city of David, because he was of the house and lineage of David. Jesus was born there.",
+    "scriptureRef": "Luke 2:1-7",
+    "era": "New Testament",
+    "color": "#8ab4d4",
+    "waypoints": [
+      [32.7, 35.3],
+      [32.3, 35.3],
+      [32.1, 35.28],
+      [31.7, 35.2]
+    ],
+    "waypointLabels": ["Nazareth", "Galilee", "Judean hills", "Bethlehem"],
+    "journey": {
+      "origin": "Nazareth, Galilee",
+      "destination": "Bethlehem, Judea",
+      "highlights": [
+        { "place": "Bethlehem", "note": "Mary gave birth to Jesus and laid him in a manger, because there was no place for them in the guest room." }
+      ]
+    }
+  },
+  {
+    "id": "jeconiah-exile-to-babylon",
+    "personId": "jeconiah",
+    "label": "Exile to Babylon",
+    "description": "King Nebuchadnezzar besieged Jerusalem. Jeconiah surrendered after reigning only three months. He, his family, officials, and craftsmen were deported to Babylon — the exile Matthew marks in the genealogy.",
+    "scriptureRef": "2 Kings 24:10-16; Matthew 1:11-12",
+    "era": "Exile",
+    "color": "#8b6914",
+    "waypoints": [
+      [31.78, 35.22],
+      [32.0, 37.5],
+      [32.15, 39.5],
+      [32.35, 41.8],
+      [32.54, 44.42]
+    ],
+    "waypointLabels": ["Jerusalem", "Jordan", "Syrian desert", "Mesopotamia", "Babylon"],
+    "journey": {
+      "origin": "Jerusalem",
+      "destination": "Babylon",
+      "duration": "597 BC — Jeconiah reigned three months before deportation (2 Kings 24:8)",
+      "highlights": [
+        { "place": "Jerusalem", "note": "Nebuchadnezzar besieged the city. Jeconiah surrendered; treasures from the temple and palace were carried off." },
+        { "place": "Babylon", "note": "Jeconiah and thousands of Judah's leading citizens were taken into exile — the nation lost its land, temple, and throne." }
+      ]
+    }
+  },
+  {
+    "id": "zerubbabel-return-from-babylon",
+    "personId": "zerubbabel",
+    "label": "Return from Babylon",
+    "description": "After seventy years in exile, Cyrus king of Persia allowed the Jews to return. Zerubbabel led the first wave of exiles back to Jerusalem and oversaw the rebuilding of the altar and temple foundation.",
+    "scriptureRef": "Ezra 1:1-3; Ezra 2:2; Ezra 3:2",
+    "era": "Exile",
+    "color": "#a08030",
+    "waypoints": [
+      [32.54, 44.42],
+      [32.35, 41.8],
+      [32.15, 39.5],
+      [32.0, 37.5],
+      [31.78, 35.22]
+    ],
+    "waypointLabels": ["Babylon", "Mesopotamia", "Syrian desert", "Jordan", "Jerusalem"],
+    "journey": {
+      "origin": "Babylon",
+      "destination": "Jerusalem",
+      "duration": "538 BC — first return under Cyrus (Ezra 1:1)",
+      "highlights": [
+        { "place": "Babylon", "note": "Zerubbabel, a descendant of David, led the first company of exiles homeward." },
+        { "place": "Jerusalem", "note": "They rebuilt the altar and laid the foundation of the temple — the beginning of restoration after exile." }
+      ]
+    }
+  },
+  {
+    "id": "jesus-life-birth-to-death",
+    "personId": "jesus",
+    "label": "Jesus's Birth to Death",
+    "description": "From His birth in Bethlehem to His crucifixion and resurrection in Jerusalem — the journey that fulfills every generation in this genealogy. Born in the city of David, hidden in Egypt from Herod, raised in Nazareth, ministering throughout Galilee, and finally entering Jerusalem to lay down His life and rise again.",
+    "scriptureRef": "Matthew 2:1-23; Luke 2:7; Luke 4:14-15; Luke 9:51; Luke 23:33; Matthew 28:6",
+    "era": "New Testament",
+    "color": "#c8942a",
+    "waypoints": [
+      [31.7, 35.2],
+      [30.8, 32.8],
+      [27.5, 30.5],
+      [30.2, 34.3],
+      [32.7, 35.3],
+      [32.88, 35.57],
+      [32.4, 35.35],
+      [31.78, 35.22]
+    ],
+    "waypointLabels": ["Bethlehem", "Negev", "Egypt", "North Sinai", "Nazareth", "Capernaum", "Samaria", "Jerusalem"],
+    "journey": {
+      "origin": "Bethlehem, Judea",
+      "destination": "Jerusalem — Golgotha",
+      "duration": "Approximately 33 years (Luke 3:23); public ministry about three years",
+      "highlights": [
+        { "place": "Bethlehem", "note": "Born to Mary and laid in a manger. Angels announced His birth to shepherds; Magi later came from the east." },
+        { "place": "Egypt", "note": "Joseph fled with Mary and the child by night when Herod sought to destroy Him — fulfilling: 'Out of Egypt I called my son.'" },
+        { "place": "Nazareth", "note": "After Herod died, the family returned and Jesus grew up here. He was called a Nazarene, yet the prophets had named Bethlehem as His birthplace." },
+        { "place": "Galilee (Capernaum)", "note": "Jesus began His public ministry in Galilee, teaching in synagogues and proclaiming the kingdom of God. Capernaum became a base for much of His work." },
+        { "place": "Jerusalem", "note": "He set His face toward Jerusalem for the final Passover. Entered the city on a donkey, was crucified at Golgotha, and on the third day rose from the dead — the goal of the entire line." }
+      ]
+    }
+  }
+]

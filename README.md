@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Living Genealogy — Biblical Lineage from Adam to Jesus
+
+An interactive, zoomable genealogy graph tracing the Messianic lineage from Adam to Jesus, built on strictly verified scripture references.
+
+## Core Principle
+
+**Every person and every connection in this dataset is backed by explicit scripture.**  
+No invented dialogue. No speculative biography. No AI-generated expansions.  
+If uncertain — omit rather than guess.
+
+---
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: Next.js 16 (App Router) + TypeScript
+- **Graph visualization**: React Flow + Dagre (hierarchical layout)
+- **Styling**: Tailwind CSS v4
+- **Data**: Static JSON in `/data/` — curated manually against scripture
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+data/
+├── people.json           # All person nodes with scripture refs
+├── relationships.json    # All parent→child edges with scripture refs
+└── CURATION_GUIDE.md     # Rules for adding/editing data
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+src/
+├── app/
+│   ├── page.tsx          # Main graph page
+│   └── api/graph/        # GET /api/graph (for Phase 2 extension)
+├── components/
+│   ├── graph/            # GenealogyGraph, PersonNode, GraphControls
+│   ├── panel/            # PersonPanel, ScriptureRef
+│   └── search/           # SearchBar
+├── lib/
+│   ├── data/loader.ts    # Load + validate JSON data
+│   └── graph/            # transform.ts, layout.ts, query.ts
+└── types/                # Person, Relationship, GraphData types
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Data Sources (MVP)
 
-## Deploy on Vercel
+- Genesis 5 (Adam to Noah)
+- Genesis 11:10–26 (Shem to Abraham)
+- Genesis 21, 25, 29–30 (Patriarchs)
+- Ruth 4:18–22 (Perez to David)
+- 1 Chronicles 1–3
+- Matthew 1:1–17 (Abraham to Jesus via Joseph's legal line)
+- Luke 3:23–38 (corroborating references)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Adding People or Relationships
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Read `data/CURATION_GUIDE.md` before editing any data files. Every entry requires:
+- At least one scripture reference proving the person exists
+- At least one scripture reference proving the specific lineage connection
+
+## Phase Roadmap
+
+| Phase | Feature | Status |
+|-------|---------|--------|
+| 1 | Living Genealogy Graph (Adam → Jesus) | ✅ MVP |
+| 2 | Timeline + Geographic map, linked to Phase 1 data | Planned |
+| 3 | "Play Mode" — scripture passage visualization | Planned |
+
+## Building for Production
+
+```bash
+npm run build
+npm run start
+```
+
+## Deploying to Vercel
+
+1. Push to GitHub
+2. Import repo in [vercel.com](https://vercel.com)
+3. Zero-config deploy — Next.js is auto-detected

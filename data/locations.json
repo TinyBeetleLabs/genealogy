@@ -1,0 +1,166 @@
+[
+  {
+    "id": "eden",
+    "name": "Garden of Eden",
+    "region": "Mesopotamia",
+    "description": "The place where God created Adam and Eve. Its location is described near four rivers including the Tigris and Euphrates.",
+    "scriptureRef": "Genesis 2:10-14",
+    "coordinates": [31.0, 47.5],
+    "approximateRadiusMeters": 120000,
+    "era": "Primeval History"
+  },
+  {
+    "id": "ur",
+    "name": "Ur of the Chaldeans",
+    "region": "Mesopotamia",
+    "description": "Ancient Sumerian city-state in present-day Iraq. Birthplace of Abraham, from which God called him to depart.",
+    "scriptureRef": "Genesis 11:31",
+    "coordinates": [30.96, 46.1],
+    "era": "Patriarchal Age"
+  },
+  {
+    "id": "haran",
+    "name": "Haran",
+    "region": "Upper Mesopotamia",
+    "description": "City where Terah and Abraham settled on their way from Ur. Terah died here. Abraham departed from here at age 75. Jacob fled here and lived with Laban.",
+    "scriptureRef": "Genesis 11:31-32; 12:4",
+    "coordinates": [36.85, 39.02],
+    "era": "Patriarchal Age"
+  },
+  {
+    "id": "canaan",
+    "name": "Land of Canaan",
+    "region": "Canaan",
+    "description": "The land God promised to Abraham and his descendants. The primary homeland of the patriarchs.",
+    "scriptureRef": "Genesis 12:5-7",
+    "coordinates": [31.5, 35.0],
+    "approximateRadiusMeters": 70000,
+    "era": "Patriarchal Age"
+  },
+  {
+    "id": "shechem",
+    "name": "Shechem",
+    "region": "Canaan",
+    "description": "First place Abraham stopped in Canaan. God appeared to him here and promised the land to his descendants.",
+    "scriptureRef": "Genesis 12:6-7",
+    "coordinates": [32.21, 35.28],
+    "era": "Patriarchal Age"
+  },
+  {
+    "id": "hebron",
+    "name": "Hebron (Mamre)",
+    "region": "Canaan",
+    "description": "Abraham settled near Mamre in Hebron. The cave of Machpelah, purchased by Abraham, became the burial site of Abraham, Sarah, Isaac, Rebekah, Leah, and Jacob.",
+    "scriptureRef": "Genesis 13:18; 23:2-20",
+    "coordinates": [31.53, 35.09],
+    "era": "Patriarchal Age"
+  },
+  {
+    "id": "beersheba",
+    "name": "Beer-sheba",
+    "region": "Canaan",
+    "description": "Where Abraham and Abimelech made a covenant. Isaac built an altar here after God appeared to him. Jacob departed from here to Egypt.",
+    "scriptureRef": "Genesis 21:31-33; 26:23-25; 46:1-5",
+    "coordinates": [31.25, 34.79],
+    "era": "Patriarchal Age"
+  },
+  {
+    "id": "bethel",
+    "name": "Bethel",
+    "region": "Canaan",
+    "description": "Jacob had his dream of the stairway to heaven here and called the place 'Beth-el' (House of God).",
+    "scriptureRef": "Genesis 28:10-19",
+    "coordinates": [31.92, 35.22],
+    "era": "Patriarchal Age"
+  },
+  {
+    "id": "dothan",
+    "name": "Dothan",
+    "region": "Canaan",
+    "description": "Where Joseph's brothers threw him into a pit and sold him to the Ishmaelite traders going to Egypt.",
+    "scriptureRef": "Genesis 37:17-28",
+    "coordinates": [32.41, 35.2],
+    "era": "Patriarchal Age"
+  },
+  {
+    "id": "egypt",
+    "name": "Egypt",
+    "region": "Egypt",
+    "description": "Joseph was brought here as a slave and rose to become second-in-command. Jacob and his family of 70 settled in Goshen during the famine. Moses led the Israelites out of Egypt in the Exodus.",
+    "scriptureRef": "Genesis 39:1; 46:6-7",
+    "coordinates": [27.5, 30.5],
+    "era": "Sojourn in Egypt"
+  },
+  {
+    "id": "goshen",
+    "name": "Land of Goshen",
+    "region": "Egypt",
+    "description": "The fertile region in northeastern Egypt where Jacob's family settled at Joseph's invitation. The Israelites lived here for approximately 430 years.",
+    "scriptureRef": "Genesis 45:10; 47:6",
+    "coordinates": [30.7, 32.1],
+    "era": "Sojourn in Egypt"
+  },
+  {
+    "id": "jericho",
+    "name": "Jericho",
+    "region": "Canaan",
+    "description": "The first Canaanite city conquered by Israel under Joshua. Rahab, an ancestor of Jesus, hid the Israelite spies here and was spared.",
+    "scriptureRef": "Joshua 2; 6",
+    "coordinates": [31.87, 35.44],
+    "era": "Conquest & Judges"
+  },
+  {
+    "id": "moab",
+    "name": "Moab",
+    "region": "Transjordan",
+    "description": "Where Naomi and her family lived during the famine. Ruth, a Moabite woman, chose to follow Naomi back to Israel and became an ancestor of David.",
+    "scriptureRef": "Ruth 1:1-4",
+    "coordinates": [31.4, 35.75],
+    "era": "Conquest & Judges"
+  },
+  {
+    "id": "bethlehem",
+    "name": "Bethlehem",
+    "region": "Judah",
+    "description": "Hometown of Boaz and Ruth. Birthplace of David, anointed king here by Samuel. Birthplace of Jesus, fulfilling the prophecy of Micah 5:2.",
+    "scriptureRef": "Ruth 1:19; 1 Samuel 16:4; Micah 5:2; Matthew 2:1",
+    "coordinates": [31.7, 35.2],
+    "era": "United Monarchy"
+  },
+  {
+    "id": "jerusalem",
+    "name": "Jerusalem",
+    "region": "Judah",
+    "description": "David captured this city and made it his capital. Solomon built the First Temple here. Jesus entered on a donkey, was crucified at Golgotha, and rose from the dead — the culmination of the messianic line.",
+    "scriptureRef": "2 Samuel 5:6-9; 1 Kings 6; Luke 19:28-40; Luke 23:33; Matthew 28:6",
+    "coordinates": [31.78, 35.22],
+    "era": "United Monarchy"
+  },
+  {
+    "id": "ramah",
+    "name": "Ramah",
+    "region": "Benjamin/Ephraim",
+    "description": "Home and burial place of Samuel. Where Saul first met Samuel.",
+    "scriptureRef": "1 Samuel 1:19; 8:4",
+    "coordinates": [31.92, 35.18],
+    "era": "United Monarchy"
+  },
+  {
+    "id": "babylon",
+    "name": "Babylon",
+    "region": "Mesopotamia",
+    "description": "The empire that conquered Judah and took the people into exile. Mentioned as the turning point in Matthew 1:11-12 — 'at the time of the deportation to Babylon.'",
+    "scriptureRef": "2 Kings 25; Matthew 1:11-12",
+    "coordinates": [32.54, 44.42],
+    "era": "Exile"
+  },
+  {
+    "id": "nazareth",
+    "name": "Nazareth",
+    "region": "Galilee",
+    "description": "Hometown of Joseph and Mary. Where the angel Gabriel announced the birth of Jesus to Mary. Jesus grew up here.",
+    "scriptureRef": "Luke 1:26-27; Matthew 2:23",
+    "coordinates": [32.7, 35.3],
+    "era": "New Testament"
+  }
+]

@@ -1,0 +1,955 @@
+{
+  "relationships": [
+    {
+      "id": "adam-eve",
+      "source": "adam",
+      "target": "eve",
+      "type": "spouse",
+      "scriptureRefs": [
+        { "display": "Genesis 2:22-24" },
+        { "display": "Genesis 3:20" }
+      ]
+    },
+    {
+      "id": "adam-cain",
+      "source": "adam",
+      "target": "cain",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 4:1" }
+      ]
+    },
+    {
+      "id": "adam-abel",
+      "source": "adam",
+      "target": "abel",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 4:2" }
+      ]
+    },
+    {
+      "id": "adam-seth",
+      "source": "adam",
+      "target": "seth",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 5:3" },
+        { "display": "Luke 3:38" }
+      ]
+    },
+    {
+      "id": "seth-enosh",
+      "source": "seth",
+      "target": "enosh",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 5:6" },
+        { "display": "Luke 3:38" }
+      ]
+    },
+    {
+      "id": "enosh-kenan",
+      "source": "enosh",
+      "target": "kenan",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 5:9" },
+        { "display": "Luke 3:37" }
+      ]
+    },
+    {
+      "id": "kenan-mahalalel",
+      "source": "kenan",
+      "target": "mahalalel",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 5:12" },
+        { "display": "Luke 3:37" }
+      ]
+    },
+    {
+      "id": "mahalalel-jared",
+      "source": "mahalalel",
+      "target": "jared",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 5:15" },
+        { "display": "Luke 3:37" }
+      ]
+    },
+    {
+      "id": "jared-enoch",
+      "source": "jared",
+      "target": "enoch",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 5:18" },
+        { "display": "Luke 3:37" }
+      ]
+    },
+    {
+      "id": "enoch-methuselah",
+      "source": "enoch",
+      "target": "methuselah",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 5:21" },
+        { "display": "Luke 3:37" }
+      ]
+    },
+    {
+      "id": "methuselah-lamech",
+      "source": "methuselah",
+      "target": "lamech",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 5:25" },
+        { "display": "Luke 3:36" }
+      ]
+    },
+    {
+      "id": "lamech-noah",
+      "source": "lamech",
+      "target": "noah",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 5:28-29" },
+        { "display": "Luke 3:36" }
+      ]
+    },
+    {
+      "id": "noah-shem",
+      "source": "noah",
+      "target": "shem",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 5:32" },
+        { "display": "Genesis 6:10" },
+        { "display": "Luke 3:36" }
+      ]
+    },
+    {
+      "id": "noah-ham",
+      "source": "noah",
+      "target": "ham",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 5:32" },
+        { "display": "Genesis 6:10" }
+      ]
+    },
+    {
+      "id": "noah-japheth",
+      "source": "noah",
+      "target": "japheth",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 5:32" },
+        { "display": "Genesis 6:10" }
+      ]
+    },
+    {
+      "id": "shem-arphaxad",
+      "source": "shem",
+      "target": "arphaxad",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 11:10" },
+        { "display": "Luke 3:36" }
+      ]
+    },
+    {
+      "id": "arphaxad-shelah",
+      "source": "arphaxad",
+      "target": "shelah",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 11:12" },
+        { "display": "Luke 3:35" }
+      ]
+    },
+    {
+      "id": "shelah-eber",
+      "source": "shelah",
+      "target": "eber",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 11:14" },
+        { "display": "Luke 3:35" }
+      ]
+    },
+    {
+      "id": "eber-peleg",
+      "source": "eber",
+      "target": "peleg",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 11:16" },
+        { "display": "Luke 3:35" }
+      ]
+    },
+    {
+      "id": "peleg-reu",
+      "source": "peleg",
+      "target": "reu",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 11:18" },
+        { "display": "Luke 3:35" }
+      ]
+    },
+    {
+      "id": "reu-serug",
+      "source": "reu",
+      "target": "serug",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 11:20" },
+        { "display": "Luke 3:35" }
+      ]
+    },
+    {
+      "id": "serug-nahor",
+      "source": "serug",
+      "target": "nahor",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 11:22" },
+        { "display": "Luke 3:34" }
+      ]
+    },
+    {
+      "id": "nahor-terah",
+      "source": "nahor",
+      "target": "terah",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 11:24" },
+        { "display": "Luke 3:34" }
+      ]
+    },
+    {
+      "id": "terah-abraham",
+      "source": "terah",
+      "target": "abraham",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 11:26" },
+        { "display": "Luke 3:34" }
+      ]
+    },
+    {
+      "id": "abraham-sarah",
+      "source": "abraham",
+      "target": "sarah",
+      "type": "spouse",
+      "scriptureRefs": [
+        { "display": "Genesis 11:29" },
+        { "display": "Genesis 17:15" }
+      ]
+    },
+    {
+      "id": "abraham-isaac",
+      "source": "abraham",
+      "target": "isaac",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 21:3" },
+        { "display": "Matthew 1:2" },
+        { "display": "Luke 3:34" }
+      ]
+    },
+    {
+      "id": "isaac-rebekah",
+      "source": "isaac",
+      "target": "rebekah",
+      "type": "spouse",
+      "scriptureRefs": [
+        { "display": "Genesis 24:67" }
+      ]
+    },
+    {
+      "id": "isaac-esau",
+      "source": "isaac",
+      "target": "esau",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 25:25-26" }
+      ]
+    },
+    {
+      "id": "isaac-jacob",
+      "source": "isaac",
+      "target": "jacob",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 25:26" },
+        { "display": "Matthew 1:2" },
+        { "display": "Luke 3:34" }
+      ]
+    },
+    {
+      "id": "jacob-leah",
+      "source": "jacob",
+      "target": "leah",
+      "type": "spouse",
+      "scriptureRefs": [
+        { "display": "Genesis 29:23-24" }
+      ]
+    },
+    {
+      "id": "jacob-rachel",
+      "source": "jacob",
+      "target": "rachel",
+      "type": "spouse",
+      "scriptureRefs": [
+        { "display": "Genesis 29:28" }
+      ]
+    },
+    { "id": "leah-reuben",   "source": "leah",   "target": "reuben",            "type": "maternal", "scriptureRefs": [{ "display": "Genesis 29:32" }] },
+    { "id": "leah-simeon",   "source": "leah",   "target": "simeon",            "type": "maternal", "scriptureRefs": [{ "display": "Genesis 29:33" }] },
+    { "id": "leah-levi",     "source": "leah",   "target": "levi",              "type": "maternal", "scriptureRefs": [{ "display": "Genesis 29:34" }] },
+    { "id": "leah-judah",    "source": "leah",   "target": "judah",             "type": "maternal", "scriptureRefs": [{ "display": "Genesis 29:35" }] },
+    { "id": "leah-issachar", "source": "leah",   "target": "issachar",          "type": "maternal", "scriptureRefs": [{ "display": "Genesis 30:18" }] },
+    { "id": "leah-zebulun",  "source": "leah",   "target": "zebulun",           "type": "maternal", "scriptureRefs": [{ "display": "Genesis 30:20" }] },
+    { "id": "leah-dinah",    "source": "leah",   "target": "dinah",             "type": "maternal", "scriptureRefs": [{ "display": "Genesis 30:21" }] },
+    { "id": "rachel-joseph", "source": "rachel", "target": "joseph-son-of-jacob","type": "maternal", "scriptureRefs": [{ "display": "Genesis 30:22-24" }] },
+    { "id": "rachel-benjamin","source": "rachel", "target": "benjamin",          "type": "maternal", "scriptureRefs": [{ "display": "Genesis 35:16-18" }] },
+    { "id": "bilhah-dan",    "source": "bilhah", "target": "dan",               "type": "maternal", "scriptureRefs": [{ "display": "Genesis 30:5-6" }] },
+    { "id": "bilhah-naphtali","source": "bilhah", "target": "naphtali",         "type": "maternal", "scriptureRefs": [{ "display": "Genesis 30:7-8" }] },
+    { "id": "zilpah-gad",    "source": "zilpah", "target": "gad",               "type": "maternal", "scriptureRefs": [{ "display": "Genesis 30:10-11" }] },
+    { "id": "zilpah-asher",  "source": "zilpah", "target": "asher",             "type": "maternal", "scriptureRefs": [{ "display": "Genesis 30:12-13" }] },
+    {
+      "id": "jacob-reuben",
+      "source": "jacob",
+      "target": "reuben",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 29:32" }
+      ]
+    },
+    {
+      "id": "jacob-simeon",
+      "source": "jacob",
+      "target": "simeon",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 29:33" }
+      ]
+    },
+    {
+      "id": "jacob-levi",
+      "source": "jacob",
+      "target": "levi",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 29:34" }
+      ]
+    },
+    {
+      "id": "jacob-judah",
+      "source": "jacob",
+      "target": "judah",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 29:35" },
+        { "display": "Matthew 1:2" },
+        { "display": "Luke 3:33" }
+      ]
+    },
+    {
+      "id": "jacob-issachar",
+      "source": "jacob",
+      "target": "issachar",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 30:18" }
+      ]
+    },
+    {
+      "id": "jacob-zebulun",
+      "source": "jacob",
+      "target": "zebulun",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 30:20" }
+      ]
+    },
+    {
+      "id": "jacob-dinah",
+      "source": "jacob",
+      "target": "dinah",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 30:21" },
+        { "display": "Genesis 34:1" }
+      ]
+    },
+    {
+      "id": "jacob-dan",
+      "source": "jacob",
+      "target": "dan",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 30:6" }
+      ]
+    },
+    {
+      "id": "jacob-naphtali",
+      "source": "jacob",
+      "target": "naphtali",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 30:8" }
+      ]
+    },
+    {
+      "id": "jacob-gad",
+      "source": "jacob",
+      "target": "gad",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 30:11" }
+      ]
+    },
+    {
+      "id": "jacob-asher",
+      "source": "jacob",
+      "target": "asher",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 30:13" }
+      ]
+    },
+    {
+      "id": "jacob-joseph-son",
+      "source": "jacob",
+      "target": "joseph-son-of-jacob",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 30:24" }
+      ]
+    },
+    {
+      "id": "jacob-benjamin",
+      "source": "jacob",
+      "target": "benjamin",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 35:18" }
+      ]
+    },
+    {
+      "id": "judah-tamar",
+      "source": "judah",
+      "target": "tamar",
+      "type": "spouse",
+      "notes": "Tamar was the wife of Judah's son Er. After Er's death, Tamar's union with Judah produced Perez and Zerah. She is explicitly named in Matthew 1:3.",
+      "scriptureRefs": [
+        { "display": "Genesis 38:6" },
+        { "display": "Genesis 38:18" },
+        { "display": "Matthew 1:3" }
+      ]
+    },
+    {
+      "id": "judah-perez",
+      "source": "judah",
+      "target": "perez",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 38:29" },
+        { "display": "Matthew 1:3" },
+        { "display": "Ruth 4:18" }
+      ]
+    },
+    {
+      "id": "judah-zerah",
+      "source": "judah",
+      "target": "zerah",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Genesis 38:30" },
+        { "display": "Matthew 1:3" }
+      ]
+    },
+    {
+      "id": "perez-hezron",
+      "source": "perez",
+      "target": "hezron",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Ruth 4:18-19" },
+        { "display": "Matthew 1:3" }
+      ]
+    },
+    {
+      "id": "hezron-ram",
+      "source": "hezron",
+      "target": "ram",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Ruth 4:19" },
+        { "display": "Matthew 1:3" }
+      ]
+    },
+    {
+      "id": "ram-amminadab",
+      "source": "ram",
+      "target": "amminadab",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Ruth 4:19-20" },
+        { "display": "Matthew 1:4" }
+      ]
+    },
+    {
+      "id": "amminadab-nahshon",
+      "source": "amminadab",
+      "target": "nahshon",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Ruth 4:20" },
+        { "display": "Matthew 1:4" }
+      ]
+    },
+    {
+      "id": "nahshon-salmon",
+      "source": "nahshon",
+      "target": "salmon",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Ruth 4:20-21" },
+        { "display": "Matthew 1:4-5" }
+      ]
+    },
+    {
+      "id": "salmon-boaz",
+      "source": "salmon",
+      "target": "boaz",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Ruth 4:21" },
+        { "display": "Matthew 1:5" }
+      ]
+    },
+    {
+      "id": "salmon-rahab",
+      "source": "salmon",
+      "target": "rahab",
+      "type": "spouse",
+      "scriptureRefs": [
+        { "display": "Matthew 1:5" }
+      ]
+    },
+    {
+      "id": "boaz-ruth",
+      "source": "boaz",
+      "target": "ruth",
+      "type": "spouse",
+      "scriptureRefs": [
+        { "display": "Ruth 4:13" },
+        { "display": "Matthew 1:5" }
+      ]
+    },
+    {
+      "id": "boaz-obed",
+      "source": "boaz",
+      "target": "obed",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Ruth 4:21-22" },
+        { "display": "Matthew 1:5" }
+      ]
+    },
+    {
+      "id": "obed-jesse",
+      "source": "obed",
+      "target": "jesse",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Ruth 4:22" },
+        { "display": "Matthew 1:5-6" }
+      ]
+    },
+    {
+      "id": "jesse-eliab",
+      "source": "jesse",
+      "target": "eliab",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "1 Samuel 16:6" },
+        { "display": "1 Samuel 17:13" }
+      ]
+    },
+    {
+      "id": "jesse-abinadab",
+      "source": "jesse",
+      "target": "abinadab-brother-david",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "1 Samuel 16:8" },
+        { "display": "1 Samuel 17:13" }
+      ]
+    },
+    {
+      "id": "jesse-shammah",
+      "source": "jesse",
+      "target": "shammah",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "1 Samuel 16:9" },
+        { "display": "1 Samuel 17:13" }
+      ]
+    },
+    {
+      "id": "jesse-david",
+      "source": "jesse",
+      "target": "david",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Ruth 4:22" },
+        { "display": "1 Samuel 16:1" },
+        { "display": "Matthew 1:6" }
+      ]
+    },
+    {
+      "id": "david-bathsheba",
+      "source": "david",
+      "target": "bathsheba",
+      "type": "spouse",
+      "scriptureRefs": [
+        { "display": "2 Samuel 11:27" },
+        { "display": "Matthew 1:6" }
+      ]
+    },
+    {
+      "id": "david-amnon",
+      "source": "david",
+      "target": "amnon",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "2 Samuel 3:2" }
+      ]
+    },
+    {
+      "id": "david-tamar-daughter",
+      "source": "david",
+      "target": "tamar-daughter-david",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "2 Samuel 13:1" }
+      ]
+    },
+    {
+      "id": "david-absalom",
+      "source": "david",
+      "target": "absalom",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "2 Samuel 3:3" }
+      ]
+    },
+    {
+      "id": "david-adonijah",
+      "source": "david",
+      "target": "adonijah",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "2 Samuel 3:4" }
+      ]
+    },
+    {
+      "id": "david-nathan-son",
+      "source": "david",
+      "target": "nathan-son-david",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "1 Chronicles 3:5" },
+        { "display": "Luke 3:31" }
+      ]
+    },
+    {
+      "id": "david-solomon",
+      "source": "david",
+      "target": "solomon",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "2 Samuel 12:24" },
+        { "display": "Matthew 1:6-7" },
+        { "display": "1 Chronicles 3:5" }
+      ]
+    },
+    {
+      "id": "solomon-rehoboam",
+      "source": "solomon",
+      "target": "rehoboam",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "1 Kings 11:43" },
+        { "display": "Matthew 1:7" }
+      ]
+    },
+    {
+      "id": "rehoboam-abijah",
+      "source": "rehoboam",
+      "target": "abijah",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "1 Kings 14:31" },
+        { "display": "Matthew 1:7" }
+      ]
+    },
+    {
+      "id": "abijah-asa",
+      "source": "abijah",
+      "target": "asa",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "1 Kings 15:8-9" },
+        { "display": "Matthew 1:7-8" }
+      ]
+    },
+    {
+      "id": "asa-jehoshaphat",
+      "source": "asa",
+      "target": "jehoshaphat",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "1 Kings 15:24" },
+        { "display": "Matthew 1:8" }
+      ]
+    },
+    {
+      "id": "jehoshaphat-joram",
+      "source": "jehoshaphat",
+      "target": "joram",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "2 Kings 8:16" },
+        { "display": "Matthew 1:8" }
+      ]
+    },
+    {
+      "id": "joram-uzziah",
+      "source": "joram",
+      "target": "uzziah",
+      "type": "biological",
+      "notes": "Matthew 1:8 skips three kings (Ahaziah, Joash, Amaziah) in this connection.",
+      "scriptureRefs": [
+        { "display": "Matthew 1:8" }
+      ]
+    },
+    {
+      "id": "uzziah-jotham",
+      "source": "uzziah",
+      "target": "jotham",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "2 Kings 15:32-33" },
+        { "display": "Matthew 1:9" }
+      ]
+    },
+    {
+      "id": "jotham-ahaz",
+      "source": "jotham",
+      "target": "ahaz",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "2 Kings 16:1-2" },
+        { "display": "Matthew 1:9" }
+      ]
+    },
+    {
+      "id": "ahaz-hezekiah",
+      "source": "ahaz",
+      "target": "hezekiah",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "2 Kings 18:1-3" },
+        { "display": "Matthew 1:9-10" }
+      ]
+    },
+    {
+      "id": "hezekiah-manasseh",
+      "source": "hezekiah",
+      "target": "manasseh",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "2 Kings 21:1" },
+        { "display": "Matthew 1:10" }
+      ]
+    },
+    {
+      "id": "manasseh-amon",
+      "source": "manasseh",
+      "target": "amon",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "2 Kings 21:18-19" },
+        { "display": "Matthew 1:10" }
+      ]
+    },
+    {
+      "id": "amon-josiah",
+      "source": "amon",
+      "target": "josiah",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "2 Kings 22:1" },
+        { "display": "Matthew 1:10-11" }
+      ]
+    },
+    {
+      "id": "josiah-jeconiah",
+      "source": "josiah",
+      "target": "jeconiah",
+      "type": "biological",
+      "notes": "Matthew 1:11 lists Jeconiah as the son of Josiah, likely skipping Jehoiakim.",
+      "scriptureRefs": [
+        { "display": "Matthew 1:11" }
+      ]
+    },
+    {
+      "id": "jeconiah-shealtiel",
+      "source": "jeconiah",
+      "target": "shealtiel",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "1 Chronicles 3:17" },
+        { "display": "Matthew 1:12" }
+      ]
+    },
+    {
+      "id": "shealtiel-zerubbabel",
+      "source": "shealtiel",
+      "target": "zerubbabel",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Matthew 1:12-13" },
+        { "display": "Ezra 3:2" }
+      ]
+    },
+    {
+      "id": "zerubbabel-abiud",
+      "source": "zerubbabel",
+      "target": "abiud",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Matthew 1:13" }
+      ]
+    },
+    {
+      "id": "abiud-eliakim",
+      "source": "abiud",
+      "target": "eliakim",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Matthew 1:13" }
+      ]
+    },
+    {
+      "id": "eliakim-azor",
+      "source": "eliakim",
+      "target": "azor",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Matthew 1:13-14" }
+      ]
+    },
+    {
+      "id": "azor-zadok",
+      "source": "azor",
+      "target": "zadok",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Matthew 1:14" }
+      ]
+    },
+    {
+      "id": "zadok-akim",
+      "source": "zadok",
+      "target": "akim",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Matthew 1:14" }
+      ]
+    },
+    {
+      "id": "akim-eliud",
+      "source": "akim",
+      "target": "eliud",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Matthew 1:14-15" }
+      ]
+    },
+    {
+      "id": "eliud-eleazar",
+      "source": "eliud",
+      "target": "eleazar",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Matthew 1:15" }
+      ]
+    },
+    {
+      "id": "eleazar-matthan",
+      "source": "eleazar",
+      "target": "matthan",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Matthew 1:15" }
+      ]
+    },
+    {
+      "id": "matthan-jacob-father-joseph",
+      "source": "matthan",
+      "target": "jacob-father-joseph",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Matthew 1:15-16" }
+      ]
+    },
+    {
+      "id": "jacob-father-joseph-joseph",
+      "source": "jacob-father-joseph",
+      "target": "joseph-husband-mary",
+      "type": "biological",
+      "scriptureRefs": [
+        { "display": "Matthew 1:16" }
+      ]
+    },
+    {
+      "id": "joseph-mary-spouse",
+      "source": "joseph-husband-mary",
+      "target": "mary",
+      "type": "spouse",
+      "scriptureRefs": [
+        { "display": "Matthew 1:18" },
+        { "display": "Luke 1:27" }
+      ]
+    },
+    {
+      "id": "joseph-jesus",
+      "source": "joseph-husband-mary",
+      "target": "jesus",
+      "type": "legal",
+      "notes": "Matthew 1:16 uses 'of whom' (feminine singular in Greek) referring to Mary, not Joseph, as the biological parent. Joseph's role is legal. Mary is the biological mother (Luke 1:31-35).",
+      "scriptureRefs": [
+        { "display": "Matthew 1:16" }
+      ]
+    },
+    {
+      "id": "mary-jesus",
+      "source": "mary",
+      "target": "jesus",
+      "type": "maternal",
+      "scriptureRefs": [
+        { "display": "Matthew 1:16" },
+        { "display": "Luke 1:31-35" },
+        { "display": "Luke 2:7" }
+      ]
+    }
+  ]
+}

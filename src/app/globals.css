@@ -1,26 +1,249 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg-base: #080704;
+  --bg-panel: #0d0a06;
+  --bg-surface: #131007;
+  --border-dim: #2a1e0a;
+  --border-glow: #5a3a0a;
+  --gold: #c8942a;
+  --gold-dim: #a87830;
+  --gold-bright: #f0b840;
+  --text-primary: #f5e8c8;
+  --text-secondary: #c4a878;
+  /* Muted labels — brighter for dark-bg readability while keeping warm tone */
+  --text-muted: #9a8060;
+  /* Female accent token — used for wife/mother nodes and legend */
+  --accent-female: #a04060;
+  /* Motion tokens */
+  --duration-fast: 150ms;
+  --duration-panel: 380ms;
+  --ease-panel: cubic-bezier(0.4, 0, 0.2, 1);
+  /* Detail / inspector panel width (People, Timeline, Map) */
+  --panel-width: 320px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--bg-base);
+  color: var(--text-primary);
+  overflow: hidden;
+}
+
+/* ─── Global focus ring (keyboard-only) ─── */
+:focus-visible {
+  outline: 2px solid var(--gold-bright);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ─── Reduced-motion support ─── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ─── React Flow overrides ─── */
+.react-flow__attribution {
+  display: none !important;
+}
+
+.react-flow__edge-path {
+  stroke-linecap: round;
+}
+
+.react-flow__handle {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* ─── Custom scrollbar ─── */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-panel);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-glow);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-dim);
+}
+/* Wider grab area on coarse-pointer devices (touch) */
+@media (pointer: coarse) {
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+}
+
+/* ─── Atlas fonts ─── */
+.font-atlas {
+  font-family: var(--font-cinzel), Georgia, serif;
+}
+
+.font-verse {
+  font-family: var(--font-garamond), Georgia, serif;
+}
+
+/* ─── Leaflet map overrides ─── */
+.leaflet-container {
+  background: #0d0d0a !important;
+  font-family: var(--font-cinzel), Georgia, serif;
+  max-width: 100%;
+}
+
+/* Restore attribution with readable styling (license compliance) */
+.leaflet-control-attribution {
+  background: rgba(0,0,0,0.6) !important;
+  color: rgba(255,255,255,0.45) !important;
+  font-size: 9px !important;
+  padding: 2px 6px !important;
+}
+.leaflet-control-attribution a {
+  color: rgba(200,148,42,0.7) !important;
+}
+
+/* Selected location label on map */
+.leaflet-tooltip.map-location-tooltip {
+  background: rgba(13, 10, 6, 0.94) !important;
+  border: 1px solid var(--border-dim) !important;
+  color: var(--gold) !important;
+  font-family: var(--font-cinzel), Georgia, serif !important;
+  font-size: 10px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.06em !important;
+  padding: 4px 8px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45) !important;
+}
+.leaflet-tooltip.map-location-tooltip::before {
+  border-top-color: var(--border-dim) !important;
+}
+
+/* Custom location pin pulse ring */
+.map-location-pin {
+  position: relative;
+  cursor: pointer;
+  transition: transform var(--duration-fast) ease, box-shadow var(--duration-fast) ease;
+}
+.map-location-pin:hover,
+.map-location-pin:focus-visible {
+  transform: scale(1.4);
+  outline: 2px solid var(--gold-bright);
+  outline-offset: 3px;
+}
+.map-location-pin.selected {
+  transform: scale(1.2);
+}
+.map-pin-pulse {
+  position: absolute;
+  top: 2px;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(200,148,42,0.5);
+  animation: pin-pulse 2s ease-out infinite;
+  pointer-events: none;
+}
+@keyframes pin-pulse {
+  0%   { transform: scale(1); opacity: 0.8; }
+  100% { transform: scale(2.2); opacity: 0; }
+}
+
+/* Migration route markers */
+.map-route-start,
+.map-route-end {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-width: 34px;
+  height: 20px;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-family: var(--font-cinzel), Georgia, serif;
+  font-size: 6px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: transform var(--duration-fast) ease, box-shadow var(--duration-fast) ease;
+}
+.map-route-start {
+  background: rgba(13, 10, 6, 0.92);
+  border: 2px solid #5cb88a;
+  color: #7ddea8;
+  box-shadow: 0 0 6px rgba(92, 184, 138, 0.35);
+}
+.map-route-end {
+  background: rgba(90, 40, 40, 0.92);
+  border: 2px solid #d47070;
+  color: #f0b0b0;
+  box-shadow: 0 0 6px rgba(212, 112, 112, 0.35);
+}
+.map-route-start.selected,
+.map-route-end.selected {
+  min-width: 40px;
+  height: 24px;
+  padding: 4px 10px;
+  font-size: 7px;
+}
+.map-route-start.selected {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(92, 184, 138, 0.55);
+}
+.map-route-end.selected {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(212, 112, 112, 0.55);
+}
+.map-route-step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(13, 10, 6, 0.94);
+  border: 1.5px solid currentColor;
+  font-family: var(--font-cinzel), Georgia, serif;
+  font-size: 9px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.map-route-marker-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  pointer-events: auto;
+}
+.map-route-place {
+  display: block;
+  font-family: var(--font-cinzel), Georgia, serif;
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #f5e8c8;
+  background: rgba(8, 7, 4, 0.92);
+  padding: 2px 5px;
+  border-radius: 3px;
+  border: 1px solid rgba(200, 148, 42, 0.35);
+  white-space: nowrap;
+  max-width: 108px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
 }
