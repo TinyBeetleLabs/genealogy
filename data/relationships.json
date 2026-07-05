@@ -38,6 +38,9 @@
         { "display": "Luke 3:38" }
       ]
     },
+    { "id": "eve-cain",  "source": "eve", "target": "cain",  "type": "maternal", "scriptureRefs": [{ "display": "Genesis 4:1" }] },
+    { "id": "eve-abel",  "source": "eve", "target": "abel",  "type": "maternal", "scriptureRefs": [{ "display": "Genesis 4:2" }] },
+    { "id": "eve-seth",  "source": "eve", "target": "seth",  "type": "maternal", "scriptureRefs": [{ "display": "Genesis 4:25" }, { "display": "Genesis 5:3" }] },
     {
       "id": "seth-enosh",
       "source": "seth",
@@ -260,6 +263,7 @@
         { "display": "Luke 3:34" }
       ]
     },
+    { "id": "sarah-isaac", "source": "sarah", "target": "isaac", "type": "maternal", "scriptureRefs": [{ "display": "Genesis 21:2-3" }, { "display": "Genesis 17:19" }] },
     {
       "id": "isaac-rebekah",
       "source": "isaac",
@@ -289,6 +293,8 @@
         { "display": "Luke 3:34" }
       ]
     },
+    { "id": "rebekah-esau", "source": "rebekah", "target": "esau", "type": "maternal", "scriptureRefs": [{ "display": "Genesis 25:25" }] },
+    { "id": "rebekah-jacob", "source": "rebekah", "target": "jacob", "type": "maternal", "scriptureRefs": [{ "display": "Genesis 25:26" }] },
     {
       "id": "jacob-leah",
       "source": "jacob",
@@ -473,6 +479,8 @@
         { "display": "Matthew 1:3" }
       ]
     },
+    { "id": "tamar-perez", "source": "tamar", "target": "perez", "type": "maternal", "scriptureRefs": [{ "display": "Genesis 38:27-29" }, { "display": "Matthew 1:3" }] },
+    { "id": "tamar-zerah", "source": "tamar", "target": "zerah", "type": "maternal", "scriptureRefs": [{ "display": "Genesis 38:30" }, { "display": "Matthew 1:3" }] },
     {
       "id": "perez-hezron",
       "source": "perez",
@@ -542,6 +550,7 @@
         { "display": "Matthew 1:5" }
       ]
     },
+    { "id": "rahab-boaz", "source": "rahab", "target": "boaz", "type": "maternal", "scriptureRefs": [{ "display": "Matthew 1:5" }] },
     {
       "id": "boaz-ruth",
       "source": "boaz",
@@ -562,6 +571,7 @@
         { "display": "Matthew 1:5" }
       ]
     },
+    { "id": "ruth-obed", "source": "ruth", "target": "obed", "type": "maternal", "scriptureRefs": [{ "display": "Ruth 4:13" }, { "display": "Matthew 1:5" }] },
     {
       "id": "obed-jesse",
       "source": "obed",
@@ -680,6 +690,8 @@
         { "display": "1 Chronicles 3:5" }
       ]
     },
+    { "id": "bathsheba-solomon", "source": "bathsheba", "target": "solomon", "type": "maternal", "scriptureRefs": [{ "display": "2 Samuel 12:24" }, { "display": "1 Chronicles 3:5" }] },
+    { "id": "bathsheba-nathan-son-david", "source": "bathsheba", "target": "nathan-son-david", "type": "maternal", "scriptureRefs": [{ "display": "1 Chronicles 3:5" }] },
     {
       "id": "solomon-rehoboam",
       "source": "solomon",
