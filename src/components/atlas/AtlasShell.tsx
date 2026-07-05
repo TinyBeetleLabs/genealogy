@@ -5,7 +5,7 @@ import { GraphData } from "@/types/graph";
 import { Person } from "@/types/person";
 import Sidebar from "@/components/layout/Sidebar";
 import GenealogyGraph, { GenealogyGraphHandle } from "@/components/graph/GenealogyGraph";
-import { GRAPH_TIMELINE_BAR_HEIGHT } from "@/components/graph/TimelineBar";
+import { GRAPH_TIMELINE_BAR_HEIGHT, MessianicLineLabel } from "@/components/graph/TimelineBar";
 import PersonPanel from "@/components/panel/PersonPanel";
 import WelcomePanel from "@/components/atlas/WelcomePanel";
 import TimelineView from "@/components/atlas/TimelineView";
@@ -267,16 +267,25 @@ export default function AtlasShell({ data }: { data: GraphData }) {
               </button>
             </div>
 
-            {/* Footer pad — spans panel + toggle, aligns with TimelineBar */}
+            {/* Footer — Messianic Line label aligns with Start with Adam above */}
             <div
-              className="shrink-0"
+              className="shrink-0 flex items-center overflow-hidden"
               style={{
                 height: GRAPH_TIMELINE_BAR_HEIGHT,
                 borderTop: "1px solid var(--border-dim)",
                 background: "var(--bg-panel)",
               }}
-              aria-hidden="true"
-            />
+            >
+              <div
+                className="flex items-center h-full px-5 transition-opacity duration-300"
+                style={{
+                  width: panelCollapsed ? 0 : "var(--panel-width)",
+                  opacity: panelCollapsed ? 0 : 1,
+                }}
+              >
+                <MessianicLineLabel />
+              </div>
+            </div>
           </div>
         )}
 

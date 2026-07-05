@@ -21,6 +21,17 @@ const MILESTONE_IDS = ["adam", "noah", "abraham", "isaac", "jacob", "david", "je
 /** Height of the graph footer bar — keep in sync with AtlasShell panel/sidebar footers */
 export const GRAPH_TIMELINE_BAR_HEIGHT = 88;
 
+export function MessianicLineLabel() {
+  return (
+    <div className="shrink-0">
+      <p className="font-atlas text-xs tracking-widest uppercase" style={{ color: "var(--gold-dim)", fontSize: 9 }}>
+        Messianic Line
+      </p>
+      <p style={{ color: "var(--text-muted)", fontSize: 8 }}>Adam → Jesus</p>
+    </div>
+  );
+}
+
 interface Props {
   people: Person[];
   selectedId: string | null;
@@ -34,23 +45,19 @@ export default function TimelineBar({ people, selectedId, onSelect }: Props) {
 
   return (
     <div
-      className="shrink-0 flex items-center px-6 gap-0 z-20 overflow-x-auto"
+      className="shrink-0 flex items-center pl-3 pr-4 gap-0 z-20 overflow-x-auto"
       style={{
         height: GRAPH_TIMELINE_BAR_HEIGHT,
         background: "var(--bg-panel)",
         borderTop: "1px solid var(--border-dim)",
       }}
     >
-      {/* Label */}
-      <div className="shrink-0 mr-6">
-        <p className="font-atlas text-xs tracking-widest uppercase" style={{ color: "var(--gold-dim)", fontSize: 9 }}>
-          Messianic Line
-        </p>
-        <p style={{ color: "var(--text-muted)", fontSize: 8 }}>Adam → Jesus</p>
+      <div className="shrink-0 mr-3 md:hidden">
+        <MessianicLineLabel />
       </div>
 
       {/* Milestones */}
-      <div className="flex items-center gap-0 flex-1">
+      <div className="flex items-center gap-0">
         {milestones.map((person, i) => {
           const portraitInfo = getPortrait(person.id);
           const hasPortrait = !!portraitInfo;
@@ -130,9 +137,10 @@ export default function TimelineBar({ people, selectedId, onSelect }: Props) {
       </div>
 
       {/* Scripture note */}
-      <div className="shrink-0 ml-4 text-right hidden lg:block">
-        <p style={{ color: "var(--text-muted)", fontSize: 8 }}>All facts backed</p>
-        <p style={{ color: "var(--text-muted)", fontSize: 8 }}>by scripture</p>
+      <div className="shrink-0 ml-auto pl-4 hidden md:block">
+        <p className="whitespace-nowrap" style={{ color: "var(--text-muted)", fontSize: 8 }}>
+          All facts backed by scripture
+        </p>
       </div>
     </div>
   );

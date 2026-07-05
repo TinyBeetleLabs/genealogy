@@ -160,7 +160,7 @@ export default function WelcomePanel({ people, onSelect }: Props) {
       </div>
 
       {/* ── Legend — collapsed by default ───────── */}
-      <div className="mt-4 px-5 pb-5">
+      <div className="mt-8 px-5 pb-5">
         <button
           type="button"
           onClick={() => setLegendOpen(o => !o)}
