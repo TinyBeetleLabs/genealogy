@@ -6,6 +6,8 @@
  * their portrait is purely an artistic interpretation of the era and role.
  */
 
+import { publicPath } from "@/lib/basePath";
+
 export interface PortraitInfo {
   src: string;
   scriptureRef?: string;
@@ -81,5 +83,7 @@ export const PORTRAIT_INFO: Record<string, PortraitInfo> = {
 };
 
 export function getPortrait(personId: string): PortraitInfo | null {
-  return PORTRAIT_INFO[personId] ?? null;
+  const info = PORTRAIT_INFO[personId];
+  if (!info) return null;
+  return { ...info, src: publicPath(info.src) };
 }
